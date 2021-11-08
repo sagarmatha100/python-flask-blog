@@ -1,0 +1,21 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/computerlife",
+    "prod_uri": "mysql://root:@localhost/computerlife",
+    "fb_url": "https://facebook.com/computerlife",
+    "tw_url": "https://twitter.com/computerlife",
+    "gh_url": "https://github.com/computerlife",
+    "blog_name": "Untold Life Story of Sulav Lohani",
+    "tag_line": "90-wp-cfn-code",
+    "gmail-user":"test",
+    "gmail-password" : "pass",
+    "about_text": "hi this is just a testing description by vulture",
+    "no_of_posts": 3,
+    "login_image": "logo.svg",
+    "admin_user" : "test",
+    "admin_password" : "test",
+    "upload_location": "C:\\Users\\lohan\\PycharmProjects\\Learning Python\\Flask Tutorial\\static\\assets\\img"
+  }
+}
