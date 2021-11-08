@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <!-- Page Header-->
+        
+        <header class="masthead" style="background-image: url('{{ url_for('static',filename='assets/img/home-bg.jpg') }}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Admin Panel</h1>
+                            <span class="subheading">Manage your posts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Po
+        <div class="container px-4 px-st preview-->
+                   
+
+            <h1> Basic Actions</h1>
+            <a href="/dashboard"><button class="btn btn-primary"> Dashboard Home </button></a>            
+            <a href="/logout"><button class="btn btn-primary"> Logout </button></a>
+            <hr>
+    WELCOME TO LOGGED IN PAGE
+    <h1>Add/Edit Posts</h1>
+
+    <div class="contact-clean">
+    <form action = "/edit/{{post.sno}}" onsubmit="return false;">
+        <h2 class="text-center">Contact us</h2>
+        <div class="form-group"><input class="form-control" type="text" id="title" name="title" placeholder="Name" value="{{post.title}}"></div>
+        <div class="form-group"><input class="form-control" type="text" id="tline" name="tline" placeholder="Tagline" value="{{post.tagline}}"></div>
+        
+        <div class="form-group"><input class="form-control" type="text" id="slug" name="slug" placeholder="Slug" value="{{post.slug}}" </div>
+        <textarea rows="5" class="form-group"  class="form-control"  type="text" id="content" name="content" placeholder="Content"> {{post.content}} </textarea> 
+
+        
+        <div class="form-group"><input class="form-control" type="text" id="img_file" name="img_file" placeholder="Image file" value="{{post.img_file}}"</div>
+        <div class="form-group"><button class="btn btn-primary" type="submit" >Submit </button></div>
+    </form>
+</div>
+
+        
+
+
+                   
+            </div>
+        </div>
+        
+{% endblock %}

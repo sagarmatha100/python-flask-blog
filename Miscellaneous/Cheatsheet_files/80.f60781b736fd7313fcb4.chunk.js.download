@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[80],{jsTB:function(e,n,_){"use strict";_.d(n,"a",(function(){return CurriculumCardGrid}));var a=_("gpvl"),t=_("tXbp"),s=_("q1tI"),c=_.n(s);const CurriculumCardGrid=({items:e,columnSizes:n={_:12,sm:6,md:4}})=>c.a.createElement(a.a,{rowGap:32,columnGap:{_:16,sm:32}},e.map((e=>c.a.createElement(t.a,{size:n,key:e.key,rowspan:"full"===e.size?2:1},e.card))))}}]);
+//# sourceMappingURL=80.f60781b736fd7313fcb4.chunk.js.map
