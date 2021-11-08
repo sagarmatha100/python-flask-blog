@@ -14,8 +14,8 @@
     "about_text": "hi this is just a testing description by vulture",
     "no_of_posts": 3,
     "login_image": "logo.svg",
-    "admin_user" : "test",
-    "admin_password" : "test",
-    "upload_location": "C:\\Users\\lohan\\PycharmProjects\\Learning Python\\Flask Tutorial\\static\\assets\\img"
+    "admin_user" : "",
+    "admin_password" : "",
+    "upload_location": "C:\\Users\\........\\static\\assets\\img"
   }
 }
